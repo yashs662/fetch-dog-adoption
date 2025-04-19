@@ -1,8 +1,9 @@
 {
-    "redirects": [
+    "routes": [
         {
-            "source": "/(.*)",
-            "destination": "/login"
+            "src": "/[^.]+",
+            "dest": "/",
+            "status": 200
         }
     ]
 }
